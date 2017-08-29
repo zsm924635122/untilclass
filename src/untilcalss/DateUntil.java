@@ -16,7 +16,7 @@ public class DateUntil {
    *
    * @param dataStr 日期
    * @param state   周年月
-   * @return String
+   * @return String 时间戳
    * @throws ParseException ex
    */
   public static String getFirstAndLastOfWeek(String dataStr, String state) throws ParseException {
